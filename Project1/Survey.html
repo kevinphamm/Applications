@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Project 1-Student Feedback Form</title>
+    <style>
+        /*table {
+            border: 1px solid black;
+            width:100%;
+            border-collapse: collapse;
+        }*/
+        table#t01 tr:nth-child(even) {
+            background-color: azure;
+        }
+        table#t01 tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+    </style>
+
+</head>
+<body>
+    <h4>Fill out the student information accordingly and choose the course to provide feedback
+        by click on the dropdown list and clicking on the course number. After clicking on the
+        course number, proceed to answer the following 12 questions. There are 6 questions related
+        to the professor and 6 questions related to the course itself. Answer the questions by
+        clicking one of the 5 options(Strong agree, agree, neutral, etc...). After finishing the
+        survey, please click on the submit form to receive the results.
+    </h4>
+    <hr />
+
+    <form method="post" action="FormProcessor.aspx" id="formInfoRequest" runat="server">
+        <table id="t01" border="1" style="width:100%">
+            <tr>
+                <td>What is your name?</td>
+                <td>
+                    <input id="txtName" name="txtName" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>What is your student ID?</td>
+                <td>
+                    <input id="txtStudentID" name="txtStudentID" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td>Choose a course to provide feedback on:</td>
+                <td>
+                    <select id="ddlCourse" name="ddlCourse">
+                        <option value="1001">CIS 1001</option>
+                        <option value="1068">CIS 1068</option>
+                        <option value="1048">CIS 1048</option>
+                        <option value="1166">CIS 1166</option>
+                        <option value="2168">CIS 2168</option>
+                        <option value="2229">CIS 2229</option>
+                        <option value="2109">CIS 2109</option>
+                        <option value="3309">CIS 3309</option>
+                        <option value="3329">CIS 3329</option>
+                        <option value="3342">CIS 3342</option>
+                        <option value="4296">CIS 4296</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>The Teacher is well prepared for class:</td>
+                <td>
+                    <input name="optPrep" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optPrep" type="radio" value="Agree" />Agree <br />
+                    <input name="optPrep" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optPrep" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optPrep" type="radio" value="Strongly Disagree" />Strongly Disagree 
+                </td>
+            </tr>
+            <tr>
+                <td>The Teacher demonstrates knowledge of the course subject:</td>
+                <td>
+                    <input name="optKnow" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optKnow" type="radio" value="Agree" />Agree <br />
+                    <input name="optKnow" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optKnow" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optKnow" type="radio" value="Strongly Disagree" />Strongly Disagree 
+                </td>
+            </tr>
+            <tr>
+                <td>The Teacher is clear in giving directions and explains what to be expected:</td>
+                <td>
+                    <input name="optExpect" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optExpect" type="radio" value="Agree" />Agree <br />
+                    <input name="optExpect" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optExpect" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optExpect" type="radio" value="Strongly Disagree" />Strongly Disagree 
+                </td>
+            </tr>
+            <tr>
+                <td>The Teacher's grading policy is fair:</td>
+                <td>
+                    <input name="optGrading" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optGrading" type="radio" value="Agree" />Agree <br />
+                    <input name="optGrading" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optGrading" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optGrading" type="radio" value="Strongly Disagree" />Strongly Disagree    
+                </td>
+            </tr>
+            <tr>
+                <td>The Teacher encourages students to speak: </td>
+                <td>
+                    <input name="optQuestion" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optQuestion" type="radio" value="Agree" />Agree <br />
+                    <input name="optQuestion" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optQuestion" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optQuestion" type="radio" value="Strongly Disagree" />Strongly Disagree  
+                </td>
+            </tr>
+            <tr>
+                <td>The Teacher manages the time well:</td>
+                <td>
+                    <input name="optTime" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optTime" type="radio" value="Agree" />Agree <br />
+                    <input name="optTime" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optTime" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optTime" type="radio" value="Strongly Disagree" />Strongly Disagree        
+                </td>
+            </tr>
+            <tr>
+                <td>The course content met your needs as a student:</td>
+                <td>
+                    <input name="optContent" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optContent" type="radio" value="Agree" />Agree <br />
+                    <input name="optContent" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optContent" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optContent" type="radio" value="Strongly Disagree" />Strongly Disagree  
+                </td>
+            </tr>
+            <tr>
+                <td>The pace at which the course is taught was too fast:</td>
+                <td>
+                    <input name="optPace" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optPace" type="radio" value="Agree" />Agree <br />
+                    <input name="optPace" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optPace" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optPace" type="radio" value="Strongly Disagree" />Strongly Disagree        
+                </td>
+            </tr>
+            <tr>
+                <td>The course material and reading were helpful:</td>
+                <td>
+                    <input name="optMaterial" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optMaterial" type="radio" value="Agree" />Agree <br />
+                    <input name="optMaterial" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optMaterial" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optMaterial" type="radio" value="Strongly Disagree" />Strongly Disagree 
+                </td>
+            </tr>
+            <tr>
+                <td>The course material was enjoyable:</td>
+                <td>
+                    <input name="optEnjoy" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optEnjoy" type="radio" value="Agree" />Agree <br />
+                    <input name="optEnjoy" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optEnjoy" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optEnjoy" type="radio" value="Strongly Disagree" />Strongly Disagree 
+                </td>
+            </tr>
+            <tr>
+                <td>The class incorporated all of the material and provided a clear understanding of the subject:</td>
+                <td>
+                    <input name="optUnderstand" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optUnderstand" type="radio" value="Agree" />Agree <br />
+                    <input name="optUnderstand" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optUnderstand" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optUnderstand" type="radio" value="Strongly Disagree" />Strongly Disagree 
+                </td>
+            </tr>
+            <tr>
+                <td>Would you recommend the course to others:</td>
+                <td>
+                    <input name="optRecommend" type="radio" value="Strongly Agree" />Strongly Agree <br />
+                    <input name="optRecommend" type="radio" value="Agree" />Agree <br />
+                    <input name="optRecommend" type="radio" value="Neutral" />Neutral<br />
+                    <input name="optRecommend" type="radio" value="Disagree" />Disagree <br />
+                    <input name="optRecommend" type="radio" value="Strongly Disagree" />Strongly Disagree 
+                </td>
+            </tr>
+
+            <tr>
+                <td>Click to the right to submit the form</td>
+                <td>
+                    <div>
+                        <br />
+                        <input name="btnSubmit" type="submit" value="Submit Form" />
+                        <br />
+                    </div>
+                    
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

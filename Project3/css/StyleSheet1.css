@@ -1,0 +1,52 @@
+﻿body {
+    background-image:url('../Images/Wood.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    color:black;
+}
+.LoginForm
+{
+    padding: 15px;
+    margin: 0 auto;
+}
+.LoginForm .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navLogo
+{
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 75%;
+}
+.navbarfooter {
+    background-image:url('../Images/TempleMade2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 50px;
+}
+.row h3{
+    color: azure;
+    text-decoration: underline;
+}
+.row h4 {
+    color: azure;
+    text-decoration: underline;
+}
+.row {
+    color: white;
+}
+.footer p {
+    color: azure;
+}

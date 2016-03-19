@@ -1,0 +1,5 @@
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\RestaurantReviewLibrary\bin\Debug\RestaurantReviewLibrary.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\RestaurantReviewLibrary\bin\Debug\RestaurantReviewLibrary.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\RestaurantReviewLibrary\obj\Debug\RestaurantReviewLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\RestaurantReviewLibrary\obj\Debug\RestaurantReviewLibrary.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\RestaurantReviewLibrary\obj\Debug\RestaurantReviewLibrary.pdb

@@ -1,0 +1,10 @@
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\bin\Debug\HomeBuilderLibrary.dll
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\bin\Debug\HomeBuilderLibrary.pdb
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\obj\Debug\HomeBuilderLibrary.dll
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\obj\Debug\HomeBuilderLibrary.pdb
+G:\CIS3342\CIS3342Solution\HomeBuilderLibrary\obj\Debug\HomeBuilderLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomeBuilderLibrary\bin\Debug\HomeBuilderLibrary.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomeBuilderLibrary\bin\Debug\HomeBuilderLibrary.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomeBuilderLibrary\obj\Debug\HomeBuilderLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomeBuilderLibrary\obj\Debug\HomeBuilderLibrary.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomeBuilderLibrary\obj\Debug\HomeBuilderLibrary.pdb

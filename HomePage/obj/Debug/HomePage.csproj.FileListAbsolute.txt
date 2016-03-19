@@ -1,0 +1,11 @@
+G:\CIS3342\CIS3342Solution\HomePage\bin\HomePage.dll
+G:\CIS3342\CIS3342Solution\HomePage\bin\HomePage.pdb
+G:\CIS3342\CIS3342Solution\HomePage\obj\Debug\HomePage.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution\HomePage\obj\Debug\HomePage.dll
+G:\CIS3342\CIS3342Solution\HomePage\obj\Debug\HomePage.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomePage\bin\HomePage.dll.config
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomePage\bin\HomePage.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomePage\bin\HomePage.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomePage\obj\Debug\HomePage.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomePage\obj\Debug\HomePage.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\HomePage\obj\Debug\HomePage.pdb

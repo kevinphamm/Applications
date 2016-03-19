@@ -1,0 +1,13 @@
+G:\CIS3342\CIS3342Solution\Project3\bin\Project3.dll
+G:\CIS3342\CIS3342Solution\Project3\bin\Project3.pdb
+G:\CIS3342\CIS3342Solution\Project3\obj\Debug\Project3.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution\Project3\obj\Debug\Project3.dll
+G:\CIS3342\CIS3342Solution\Project3\obj\Debug\Project3.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project3\bin\Project3.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project3\bin\Project3.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project3\bin\Utilities.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project3\bin\Utilities.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project3\obj\Debug\Project3.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project3\obj\Debug\Project3.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project3\obj\Debug\Project3.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project3\bin\Project3.dll.config

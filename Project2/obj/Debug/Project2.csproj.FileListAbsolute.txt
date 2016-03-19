@@ -1,0 +1,19 @@
+G:\CIS3342\CIS3342Solution\Project2\bin\Project2.dll
+G:\CIS3342\CIS3342Solution\Project2\bin\Project2.pdb
+G:\CIS3342\CIS3342Solution\Project2\bin\Utilities.dll
+G:\CIS3342\CIS3342Solution\Project2\bin\Utilities.pdb
+G:\CIS3342\CIS3342Solution\Project2\obj\Debug\Project2.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution\Project2\obj\Debug\Project2.dll
+G:\CIS3342\CIS3342Solution\Project2\obj\Debug\Project2.pdb
+G:\CIS3342\CIS3342Solution\Project2\bin\HomeBuilderLibrary.dll
+G:\CIS3342\CIS3342Solution\Project2\bin\HomeBuilderLibrary.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\bin\Project2.dll.config
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\bin\Project2.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\bin\Project2.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\bin\HomeBuilderLibrary.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\bin\Utilities.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\bin\HomeBuilderLibrary.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\bin\Utilities.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\obj\Debug\Project2.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\obj\Debug\Project2.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project2\obj\Debug\Project2.pdb

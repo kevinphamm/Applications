@@ -1,0 +1,10 @@
+G:\CIS3342\CIS3342Solution\Project4\bin\Project4.dll
+G:\CIS3342\CIS3342Solution\Project4\bin\Project4.pdb
+G:\CIS3342\CIS3342Solution\Project4\obj\Debug\Project4.dll
+G:\CIS3342\CIS3342Solution\Project4\obj\Debug\Project4.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project4\bin\Project4.dll.config
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project4\bin\Project4.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project4\bin\Project4.pdb
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project4\obj\Debug\Project4.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project4\obj\Debug\Project4.dll
+C:\Users\Kevin\Desktop\Network App Systems\CIS3342Solution\Project4\obj\Debug\Project4.pdb
